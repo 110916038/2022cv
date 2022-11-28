@@ -3,12 +3,34 @@
     <head>
         <meta charset="utf-8">
         <title>Contact me</title>
+        <style>
+            td {
+                padding: 0 10px;
+            }
+
+        </style>
     </head>
     <body>
         <h1>我的連絡資訊</h1>
-        <p>我的虛構地址</p>
-        <p>0920-048763</p>
-        <p>email@gmail.com</p>
+        <table>
+            <tr>
+                <td>地址</td>
+                <td>基隆路二段22號</td>
+            </tr>
+            <tr>
+                <td>電話</td>
+                <td>
+                    <a href="tel:0970929610">0970-929610</a>
+                </td>
+            </tr>
+            <tr>
+                <td>信箱</td>
+                <td>
+                    <a href="mailto:gemini910610@gmail.com">gemini910610@gmail.com</a>
+                </td>
+            </tr>
+        </table>
+        <h2>聯絡我</h2>
         <form action="">
             <table>
                 <tr>
@@ -19,10 +41,21 @@
                     <td><label>顏色</label></td>
                     <td><input type="color"></td>
                 </tr>
+                <tr colspan="2">
+                    <td>
+                        <label>是否收到更新通知</label>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr colspan="2">
+                    <td>
+                        <input type="submit" value="提交">
+                    </td>
+                </tr>
             </table>
-            <label>是否收到更新通知</label><input type="checkbox"><br>
-            <input type="submit" value="提交">
         </form>
-        <a href="./index.html">Go Back</a>
+        <a href="./index.html">
+            <img src="https://cdn-icons.flaticon.com/svg/3916/3916888.svg?token=exp=1669611683~hmac=5cf990cfe015afb2df21fd71eb324d9e" height="40px" title="Go Back">
+        </a>
     </body>
 </html>
